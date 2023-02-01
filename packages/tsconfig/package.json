@@ -1,0 +1,8 @@
+{
+  "name": "@acme/tsconfig",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@tsconfig/node-lts-strictest-esm": "18.12.1"
+  }
+}

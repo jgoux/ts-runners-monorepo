@@ -1,0 +1,14 @@
+{
+  "name": "@acme/sdk",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "devDependencies": {
+    "@acme/tsconfig": "workspace:*"
+  },
+  "dependencies": {
+    "chalk": "5.2.0",
+    "find-up": "6.3.0"
+  }
+}

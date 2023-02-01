@@ -1,0 +1,11 @@
+{
+  "display": "Node",
+  "extends": "@tsconfig/node-lts-strictest-esm/tsconfig.json",
+  "compilerOptions": {
+    "exactOptionalPropertyTypes": false,
+    "importsNotUsedAsValues": "remove",
+    "module": "nodenext",
+    "moduleResolution": "nodenext"
+  },
+  "exclude": ["node_modules", "dist"]
+}

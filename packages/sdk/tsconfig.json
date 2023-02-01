@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "paths": {
+      "~/*": [
+        "src/*"
+      ]
+    }
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ],
+  "extends": "@acme/tsconfig/node",
+  "include": [
+    "**/*.ts",
+    "**/*.json",
+    ".eslintrc.cjs"
+  ]
+}
